@@ -1,6 +1,27 @@
-# Re-AOL - Retro-AOL®
+# Re-AOL - Retro AOL® Client software
 ![Python](https://img.shields.io/badge/Python-3.10-green?style=flat-square&logo=appveyor)
 
+This is the AOL3.0 client software from 1995.
+
+Everything you need for connecting to the Re-AOL service is contained in the ZIP file. The AOL3.0 client was installed on a Winblows 10 PC, tested, then packed into the archive. The client software, nor its dependancies, have not been altered in anyway from their original state after being installed, with exception of two files:
+
+>./idb/main.idx
+
+>./ccl/TCP.ccl
+
+**main.idx**: contains all the FDO forms, images, and binary data the client needs for interaction with the server. Any new FDO forms will be compiled to the main.idx then uploaded. This will be temporary until the server can properly handle what is called *Download on Demand* (DOD) protocals which will allow us to automagically update the FDO forms whenever a user logs into the service.
+
+**TCP.ccl**: contains the script that tells the client software where to look for the Re-AOL server for connection. The only thing changed in this file was the address to the Re-AOL server. There were other ways to tell the client where to look for a connection, but this was the easiest way that did not require altering firewall settings or a hosts file.
+ 
+
+At the moment all service related client forms will be updated into a new "main.idx" then uploaded to this page. If you want the latest services while testing the client, then you'll need to update the "main.idx" database in the archive whenever a new update becomes available. Keep in mind you will loose your saved screen name and password, and will have to login as a New User. However, your account information is still retained server side so no need to re-enter the serial number and password, just select the option stating that you already have a Re-AOL account, then enter your screen name and password, you'll be logged back in.
+
+Serial numbers with their associated passwords will be handed out 10 at a time for testing purposes. If you are interested in the service for testing and reporting client side issues, then please contact me for a serial number and password combo.
+
+*-This readme will be updated with current server information as updates & fixes are rolled out-*
+
+
+# Re-AOL server information:
 An AOL® (America Online) server written in Python (3.10) focusing on the 16/32-bit AOL® 3.0 client versions - for the time being.
 > AOL® versions 4+ integration is planned for the future.
 >
