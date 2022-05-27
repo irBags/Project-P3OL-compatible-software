@@ -3,7 +3,7 @@
 
 This is the AOL3.0 client software from 1995.
 
-Everything you need for connecting to the Re-AOL service is contained in the ZIP file. The AOL3.0 client was installed on a Winblows 10 PC, tested, then packed into the archive. The client software, nor its dependancies, have not been altered in anyway from their original state after being installed, with exception of two files:
+Everything you need for connecting to the Re-AOL service is contained in the ZIP file. The AOL3.0 client was installed on a Winblows 10 PC, tested, then packed into the archive. The client software, nor its dependancies, have been altered in anyway from their original state after being installed, with exception of two files:
 
 >./idb/main.idx
 
@@ -11,14 +11,17 @@ Everything you need for connecting to the Re-AOL service is contained in the ZIP
 
 **main.idx**: contains all the FDO forms, images, and binary data the client needs for interaction with the server. Any new FDO forms will be compiled to the main.idx then uploaded. This will be temporary until the server can properly handle what is called *Download on Demand* (DOD) protocals which will allow us to automagically update the FDO forms whenever a user logs into the service.
 
-**TCP.ccl**: contains the script that tells the client software where to look for the Re-AOL server for connection. The only thing changed in this file was the address to the Re-AOL server. There were other ways to tell the client where to look for a connection, but this was the easiest way that did not require altering firewall settings or a hosts file.
+**TCP.ccl**: contains the script that tells the client software where to look for the Re-AOL server for connection. The only thing changed in this file was the address to the Re-AOL server. There are other ways to tell the client where to look for a connection, but this was the easiest way that did not require altering firewall settings or a hosts file.
 
 
-At the moment all service related client forms will be updated into a new "main.idx" then uploaded to this page. If you want the latest services while testing the client, then you'll need to update the "main.idx" database in the archive whenever a new update becomes available. Keep in mind you will loose your saved screen name and password, and will have to login as a New User. However, your account information is still retained server side so no need to re-enter the serial number and password, just select the option stating that you already have a Re-AOL account, then enter your screen name and password, you'll be logged back in.
+Visit our Discord for more information:
 
-Serial numbers with their associated passwords will be handed out 10 at a time for testing purposes. If you are interested in the service for testing and reporting client side issues, then please contact me for a serial number and password combo.
+[#faq](https://discord.com/channels/978741297865175081/979473341322788914)
+
+[#general](https://discord.com/channels/978741297865175081/978741297865175085)
 
 *-This readme will be updated with current server information as updates & fixes are rolled out-*
+
 
 
 # Re-AOL server information:
@@ -26,8 +29,6 @@ An AOL® (America Online) server written in Python (3.10) focusing on the 16/32-
 > AOL® versions 4+ integration is planned for the future.
 >
 > **Currently closed source.**
-
-Check out preview video on YouTube https://youtu.be/BIC376oy1ds
 
 A nostalgic return to the youth of the 90s', and the online community that sparked a copious amount of young adults interests in software development. America Online was one of the foundations that started many on their paths into the computer sciences.
 And so I embark on a journey to [re]animate/[re]vive/[re]turn AOL® by writing a server, from scratch, using resources found all over the internet - while also learning Python.
@@ -43,11 +44,13 @@ Whatever the outcome, I hope it can be a place where people like myself will pop
 >- **Chat Rooms (Roomer): ~95%**
 >> - Chat rooms work 100%, however, moderation (title, kick/ban, private/invisible etc) setup GUI is not there - in progress.
 >
->- **Instant Messages (Whisper): ~100%**
+>- **Instant Messages (Whisper): ~98%**
 >> - The ability to block screen names has not yet been implemented.
+>> - Some issues with LONG messages causes client crash - keep it short and works fine.
 >
 >- **View Member Profiles: ~100%**
->>  - The ability to create/edit your profile is not yet implemented - in development.
+>- **Create Member Profiles: ~99%**
+>> - Reported random client crashes.
 >
 >- **Locate Members Online: ~100%**
 >
@@ -61,7 +64,6 @@ Whatever the outcome, I hope it can be a place where people like myself will pop
 ## In progress:
 
 >- Member Services
->- Member Profile Creation
 >- Bulletin Boards
 >- E-Mails
 >- Find
@@ -77,7 +79,6 @@ I have a small chunk of googled images for some content but need more!
 
 The source code is closed at the moment, primarily because I'm doing this to get back into programming after many years of absence, and to learn Python. This has become my passion and hobby of which I have dedicated an extreme amount of time to. Which for me personally, is extraordinary. I have an annoying bit of A.D.D. that has taken over my life from the beginning. so finishing anything has always been my demon, until this project came into existence that is.
 
-Interested in the project, have some mad skills and a nostalgic heart? Drop me a line and we'll discuss.
 ## _Disclaimer_
 
 
@@ -88,9 +89,6 @@ Interested in the project, have some mad skills and a nostalgic heart? Drop me a
 
 
 ### Prerequisites
-The server requires Python 3.10 or later, crcmod, bs4, and irc modules.
-
-To connect to the server you'll need a 32-bit version of AOL 3.0 client. AOL 3.0 does run on Windows 10, but before running make sure to right-click the installer then select the compatibility tab, you'll want to set it to use Windows 95 or Windows 98 compatibility. I'll provide the full working client software with all changes made when the server goes live for convenience rather than having to perform the changes yourself.
 
 
 ### Server: New Releases
