@@ -12,7 +12,7 @@ Everything you need for connecting to the Re-AOL service is contained in the ZIP
 **main.idx**: contains all the FDO forms, images, and binary data the client needs for interaction with the server. Any new FDO forms will be compiled to the main.idx then uploaded. This will be temporary until the server can properly handle what is called *Download on Demand* (DOD) protocals which will allow us to automagically update the FDO forms whenever a user logs into the service.
 
 **TCP.ccl**: contains the script that tells the client software where to look for the Re-AOL server for connection. The only thing changed in this file was the address to the Re-AOL server. There were other ways to tell the client where to look for a connection, but this was the easiest way that did not require altering firewall settings or a hosts file.
- 
+
 
 At the moment all service related client forms will be updated into a new "main.idx" then uploaded to this page. If you want the latest services while testing the client, then you'll need to update the "main.idx" database in the archive whenever a new update becomes available. Keep in mind you will loose your saved screen name and password, and will have to login as a New User. However, your account information is still retained server side so no need to re-enter the serial number and password, just select the option stating that you already have a Re-AOL account, then enter your screen name and password, you'll be logged back in.
 
