@@ -16,18 +16,18 @@ Everything you need for connecting to the P3OL service is contained in **P3OL AO
 To enable sounds:
 ```
 [HKEY_CURRENT_USER\Control Panel\Sounds]
-"Drop"="C:\\Program Files\\Re-AOL\\drop.wav"
-"Welcome"="C:\\Program Files\\Re-AOL\\welcome.wav"
-"Goodbye"="C:\\Program Files\\Re-AOL\\goodbye.wav"
-"IM"="C:\\Program Files\\Re-AOL\\im.wav"
-"File's Done"="C:\\Program Files\\Re-AOL\\filedone.wav"
-"You've Got Mail"="C:\\Program Files\\Re-AOL\\gotmail.wav"
+"Drop"="C:\\Program Files\\p3ol\\drop.wav"
+"Welcome"="C:\\Program Files\\p3ol\\welcome.wav"
+"Goodbye"="C:\\Program Files\\p3ol\\goodbye.wav"
+"IM"="C:\\Program Files\\p3ol\\im.wav"
+"File's Done"="C:\\Program Files\\p3ol\\filedone.wav"
+"You've Got Mail"="C:\\Program Files\\p3ol\\gotmail.wav"
 ```
 
 To automagically enable compatibility mode:
 ```
 [HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers]
-"C:\\Program Files\\Re-AOL\\AOL.exe"="WIN95 DISABLETHEMES"
+"C:\\Program Files\\p3ol\\AOL.exe"="WIN95 DISABLETHEMES"
 ```
 
 
