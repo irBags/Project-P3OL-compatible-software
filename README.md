@@ -1,7 +1,7 @@
 # Retro AOL® Client software
 ![Python](https://img.shields.io/badge/Python-3.10-green?style=flat-square&logo=appveyor)
 
-This is the AOL3.0 client software from 1995.
+This is the AOL® 3.0 client software from 1995.
 
 Everything you need for connecting to the P3OL service is contained in **P3OL AOL® 3 Client installers** directory. Pick your poison - 16bit or 32bit. The installers will install AOL® 3.0 client and update your registry to enable sound events. The 32bit AOL® 3.0 client was installed on a Winblows 10 PC, tested, then packed into the installer. 16bit was installed on Winblows 95, tested, then packed. The client software, nor its dependancies, have been altered in anyway from their original state after being installed, with exception of two files and some registry keys:
 
