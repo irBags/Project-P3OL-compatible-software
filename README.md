@@ -1,9 +1,9 @@
-# Re-AOL - Retro AOL® Client software
+# Retro AOL® Client software
 ![Python](https://img.shields.io/badge/Python-3.10-green?style=flat-square&logo=appveyor)
 
 This is the AOL3.0 client software from 1995.
 
-Everything you need for connecting to the Re-AOL service is contained in **Re-AOL AOL3 Client installers** directory. Pick your poison - 16bit or 32bit. The installers will install AOL3.0 client and update your registry to enable sound events. The 32bit AOL3.0 client was installed on a Winblows 10 PC, tested, then packed into the installer. 16bit was installed on Winblows 95, tested, then packed. The client software, nor its dependancies, have been altered in anyway from their original state after being installed, with exception of two files and some registry keys:
+Everything you need for connecting to the P3OL service is contained in **P3OL AOL® 3 Client installers** directory. Pick your poison - 16bit or 32bit. The installers will install AOL® 3.0 client and update your registry to enable sound events. The 32bit AOL® 3.0 client was installed on a Winblows 10 PC, tested, then packed into the installer. 16bit was installed on Winblows 95, tested, then packed. The client software, nor its dependancies, have been altered in anyway from their original state after being installed, with exception of two files and some registry keys:
 
 >./idb/main.idx
 
@@ -11,7 +11,7 @@ Everything you need for connecting to the Re-AOL service is contained in **Re-AO
 
 **main.idx**: contains all the FDO forms, images, and binary data the client needs for interaction with the server. Any new FDO forms will be compiled to the main.idx then uploaded. This will be temporary until the server can properly handle what is called *Download on Demand* (DOD) protocals which will allow us to automagically update the FDO forms whenever a user logs into the service.
 
-**TCP.ccl**: contains the script that tells the client software where to look for the Re-AOL server for connection. The only thing changed in this file was the address to the Re-AOL server. There are other ways to tell the client where to look for a connection, but this was the easiest way that did not require altering firewall settings or a hosts file.
+**TCP.ccl**: contains the script that tells the client software where to look for the P3OL server for connection. The only thing changed in this file was the address to the P3OL server. There are other ways to tell the client where to look for a connection, but this was the easiest way that did not require altering firewall settings or a hosts file.
 
 To enable sounds:
 ```
@@ -41,8 +41,8 @@ Visit our Discord for more information:
 
 
 
-# Re-AOL server information:
-An AOL® (America Online) server written in Python (3.10) focusing on the 16/32-bit AOL® 3.0 client versions - for the time being.
+# P3OL server information:
+An AOL® (America Online®) server written in Python (3.10) focusing on the 16/32-bit AOL® 3.0 client versions - for the time being.
 > AOL® versions 4+ integration is planned for the future.
 >
 > **Currently closed source.**
@@ -50,14 +50,14 @@ An AOL® (America Online) server written in Python (3.10) focusing on the 16/32-
 A nostalgic return to the youth of the 90s', and the online community that sparked a copious amount of young adults interests in software development. America Online was one of the foundations that started many on their paths into the computer sciences.
 And so I embark on a journey to [re]animate/[re]vive/[re]turn AOL® by writing a server, from scratch, using resources found all over the internet - while also learning Python.
 
-In addition to being an old geek and nostalgic for the good old '90s, my intent for the project is to bring back a medium that sparked kids of all ages interests' in programming. A lot of those people went on to do great things with the skills they acquired during their "haxor" days on AOL.
+In addition to being an old geek and nostalgic for the good old '90s, my intent for the project is to bring back a medium that sparked kids of all ages interests' in programming. A lot of those people went on to do great things with the skills they acquired during their "haxor" days on AOL®.
 I wanted to bring back that same medium, and possibly set some young kids on the right path? The latter is more than likely a pipe dream, but you never know.
 Whatever the outcome, I hope it can be a place where people like myself will populate chat rooms and bulletin boards with great late-night conversations like the good old days!
 
 ## What works:
 
 >- **Account Creation/Registration: 100%**
->>  - Requires a serial number and a password combo to register an account. In the 90s these were on CD covers and floppy disks. They will be provided on GitHub and the Re-AOL website (if one ever gets made?)
+>>  - Requires a serial number and a password combo to register an account. In the 90s these were on CD covers and floppy disks. They will be provided on GitHub and the P3OL website (if one ever gets made?)
 >- **Chat Rooms (Roomer): ~95%**
 >> - Chat rooms work 100%, however, moderation (title, kick/ban, private/invisible etc) setup GUI is not there - in progress.
 >
