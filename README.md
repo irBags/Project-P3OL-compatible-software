@@ -6,8 +6,8 @@ P3OL. If you prefer, you can modify a vanilla installation manually by following
 below. As of now, no manual changes are needed to `main.idx` to function.
 
 >P3OL is a custom developed server compatible with the old America Online clients.
->
 >P3OL is not connected or affiliated with, authorized by, sponsored or endorsed by, or otherwise approved by Yahoo/AOL.
+>**AOL, AOL INSTANT MESSENGER, AMERICA ONLINE** are registered trademarks of **Yahoo Inc.**
 
 Everything you need for connecting to the P3OL service is contained in **P3OL Client installers** directory. Pick your poison - 16bit or 32bit. The installers will install the old America Online® 3.0 client and update your registry to enable sound events. The 32bit client was installed on a Winblows 10 PC, tested, then packed into the installer. 16bit was installed on Winblows 95, tested, then packed. The client software, nor its dependancies, have been altered in anyway from their original state after being installed, with exception of two files and some registry keys:
 
