@@ -1,12 +1,18 @@
-# Retro AOL® Client software
+# P3OL Client software
 ![Python](https://img.shields.io/badge/Python-3.10-green?style=flat-square&logo=appveyor)
 
-This is the AOL® 3.0 client software from 1995.
+This is the original AOL® 3.0 client software from 1995 with modifications to connect to
+P3OL. If you prefer, you can modify a vanilla installation manually by following the steps
+below. As of now, no manual changes are needed to `main.idx` to function.
 
-Everything you need for connecting to the P3OL service is contained in **P3OL AOL® 3 Client installers** directory. Pick your poison - 16bit or 32bit. The installers will install AOL® 3.0 client and update your registry to enable sound events. The 32bit AOL® 3.0 client was installed on a Winblows 10 PC, tested, then packed into the installer. 16bit was installed on Winblows 95, tested, then packed. The client software, nor its dependancies, have been altered in anyway from their original state after being installed, with exception of two files and some registry keys:
+>P3OL is a custom developed server compatible with the old America Online clients.
+>
+>P3OL is not connected or affiliated with, authorized by, sponsored or endorsed by, or otherwise approved by Yahoo/AOL.
+
+Everything you need for connecting to the P3OL service is contained in **P3OL Client installers** directory. Pick your poison - 16bit or 32bit. The installers will install the old America Online® 3.0 client and update your registry to enable sound events. The 32bit client was installed on a Winblows 10 PC, tested, then packed into the installer. 16bit was installed on Winblows 95, tested, then packed. The client software, nor its dependancies, have been altered in anyway from their original state after being installed, with exception of two files and some registry keys:
 
 >./idb/main.idx
-
+>
 >./ccl/TCP.ccl
 
 **main.idx**: contains all the FDO forms, images, and binary data the client needs for interaction with the server. Any new FDO forms will be compiled to the main.idx then uploaded. This will be temporary until the server can properly handle what is called *Download on Demand* (DOD) protocals which will allow us to automagically update the FDO forms whenever a user logs into the service.
@@ -42,13 +48,13 @@ Visit our Discord for more information:
 
 
 # P3OL server information:
-An AOL® (America Online®) server written in Python (3.10) focusing on the 16/32-bit AOL® 3.0 client versions - for the time being.
-> AOL® versions 4+ integration is planned for the future.
+An custom server compatible with old school America Online® clients written in Python (3.10) focusing on the 16/32-bit 3.0 client versions - for the time being.
+> Support for versions 4+ are planned for the future.
 >
 > **Currently closed source.**
 
 A nostalgic return to the youth of the 90s', and the online community that sparked a copious amount of young adults interests in software development. America Online was one of the foundations that started many on their paths into the computer sciences.
-And so I embark on a journey to [re]animate/[re]vive/[re]turn AOL® by writing a server, from scratch, using resources found all over the internet - while also learning Python.
+And so I embark on a journey to [re]animate/[re]vive/[re]turn it by writing a server, from scratch, using resources found all over the internet - while also learning Python.
 
 In addition to being an old geek and nostalgic for the good old '90s, my intent for the project is to bring back a medium that sparked kids of all ages interests' in programming. A lot of those people went on to do great things with the skills they acquired during their "haxor" days on AOL®.
 I wanted to bring back that same medium, and possibly set some young kids on the right path? The latter is more than likely a pipe dream, but you never know.
@@ -89,7 +95,7 @@ Whatever the outcome, I hope it can be a place where people like myself will pop
 
 ### What doesn't work:
 
-Most of the online services content is missing as the FDO91 source code for them was all stored on the AOL® servers - these are called "host forms" - so most, if not all of them will have to be written entirely from scratch. To do this I need resources - images of what the Forms looked like when opened in the client.
+Most of the online services content is missing as the FDO91 source code for them was all stored on the original servers - these are called "host forms" - so most, if not all of them will have to be written entirely from scratch. To do this I need resources - images of what the Forms looked like when opened in the client.
 I have a small chunk of googled images for some content but need more!
 
 ***If anyone has knowledge of the FDO91 language, or access to a good set of FDO91 manuals? Let me know please.***
