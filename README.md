@@ -20,7 +20,7 @@ Visit our Discord for more information:
 
 
 # P3OL server information:
-An custom server compatible with America Online®. The server is written in Python (3.10) and focusing on the 16/32-bit 3.0 client versions - for the time being.
+An custom server compatible with and inspired by America Online® clients from the 90s and early 2000s. The server is written in Python (3.10) and focusing on the 16/32-bit 3.0 client versions - for the time being.
 > Support for versions 4+ are planned for the future.
 >
 > **Currently closed source.**
