@@ -1,4 +1,4 @@
-# P3OL Client software
+# Project P3OL
 ![Python](https://img.shields.io/badge/Python-3.10-green?style=flat-square&logo=appveyor)
 
 >P3OL is a custom developed server compatible with the old America Online clients.
